@@ -10,6 +10,10 @@ Since this is a AHK script you can easily change it for yourself and use differe
 
 THE MEMORY ADRESS POINTERS and OFFSETS are for the driver version 15.4.1.354  .. its probably wont work on other driver versions, but its easy to find the pointers and offsets with cheat engine 
 
-updated to driver version 15.5.1.390 on 08.01.2022
+EDIT (08.01.2022):
 
-driver version 15.5.3.444 works with the same offsets from 15.5.1.390 , no update needed :)
+-  updated to driver version 15.5.1.390 
+
+EDIT (05.06.2022):
+
+-  driver version 15.5.3.444 works with the same offsets from 15.5.1.390 , no update needed :)
