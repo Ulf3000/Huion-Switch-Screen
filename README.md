@@ -17,3 +17,7 @@ EDIT (08.01.2022):
 EDIT (05.06.2022):
 
 -  driver version 15.5.3.444 works with the same offsets from 15.5.1.390 , no update needed :)
+
+EDIT (28.07.2022):
+
+-  driver version 15.6.2.80 , new memory pointer is : 0x0003BB38 + mem.BaseAddress, "UInt", 0x194, 0x18
