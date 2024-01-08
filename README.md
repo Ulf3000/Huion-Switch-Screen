@@ -21,3 +21,12 @@ EDIT (05.06.2022):
 EDIT (28.07.2022):
 
 -  driver version 15.6.2.80 , new memory pointer is : 0x0003BB38 + mem.BaseAddress, "UInt", 0x194, 0x18
+
+
+EDIT (08.01.2024)
+
+- i cannot use this trick on any newer driver versions anymore (at least the ones i can download now),
+so 15.6.2.80 will be the last update , but the driver didnt get any meaningful updates anyways so its ok to use the older version.
+
+I will upload that driver version installer to this repo becasue its not available on the huion website anymore.
+Sorry guys nothing i can do about it 🤷‍♂️🤷‍♂️🤷‍♂️
