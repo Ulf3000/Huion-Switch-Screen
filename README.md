@@ -1,5 +1,6 @@
 # Huion-Switch-Screen
 AHK script to toggle pen mapping across different monitors.
+
 This script is designed for buttonless Huion pen tablets, such as the Kamvas 22 Plus, and introduces the functionality to switch pen mapping using a hotkey.
 The Huion driver lacks this crucial functionality. 🤦‍♂️
 
