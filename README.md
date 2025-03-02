@@ -1,4 +1,4 @@
-# Huion-Switch-Screen
+## Huion-Switch-Screen
 AHK script to toggle pen mapping across different monitors.
 
 This script is designed for buttonless Huion pen tablets, such as the Kamvas 22 Plus, and introduces the functionality to switch pen mapping using a hotkey.
@@ -8,6 +8,14 @@ The script works similarly to a game hack, as it injects an integer value direct
 I used cheat engine https://www.cheatengine.org/ to find the memorypointers and offsets to set the value.
 
 Since this is a AutoHotKey script you can easily change it for yourself and use a different hotkey or make one hotkey for each monitor or whatever you like :) 
+
+##### Installation:
+
+- download both huionhack.ahk and classmemory.ahk and put them in the same folder, then run huionhack.ahk
+- If you want to autostart eleveated apps at windows startup i highly recommend to use the tool "skip UAC Prompt" https://www.sordum.org/16219/skip-uac-prompt-v1-2/
+
+
+##### Update History: 
 
 EDIT (08.01.2022):
 
