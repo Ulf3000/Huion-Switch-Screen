@@ -1,11 +1,12 @@
 # Huion-Switch-Screen
-ahk script hack to toggle the pen mapping through the different monitors.
+AHK script to toggle pen mapping across different monitors.
+This script is designed for buttonless Huion pen tablets, such as the Kamvas 22 Plus, and introduces the functionality to switch pen mapping using a hotkey.
+The Huion driver lacks this crucial functionality. 🤦‍♂️
 
-I used cheat engine to find the pointers and offsets to set which monitor the pen maps to.
-This ahk script writes to the huion drivers memory and provides "Switch Screen" to Huion Models like my Kamvas 22 Plus , which dont have any buttons.
-(Huions driver is missing that feature)
+The script works similarly to a game hack, as it injects an integer value directly into the memory of a running process, in this case, HuionTabletCore.exe.
+I used cheat engine https://www.cheatengine.org/ to find the memorypointers and offsets to set the value.
 
-Since this is a AHK script you can easily change it for yourself and use different hotkeys or make one hotkey for each monitor or whatever you like :) 
+Since this is a AutoHotKey script you can easily change it for yourself and use a different hotkey or make one hotkey for each monitor or whatever you like :) 
 
 EDIT (08.01.2022):
 
