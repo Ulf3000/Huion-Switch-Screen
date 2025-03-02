@@ -12,6 +12,7 @@ Since this is a AutoHotKey script you can easily change it for yourself and use 
 ##### Installation:
 
 - download both huionhack.ahk and classmemory.ahk and put them in the same folder, then run huionhack.ahk
+- or download the precompiled exe from the release section and use that instead 
 - If you want to autostart eleveated apps at windows startup i highly recommend to use the tool "skip UAC Prompt" https://www.sordum.org/16219/skip-uac-prompt-v1-2/
 
 
