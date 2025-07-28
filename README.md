@@ -1,19 +1,23 @@
 ## Huion-Switch-Screen
-AHK script to toggle pen mapping across different monitors.
+AHK script for toggling pen mapping between multiple monitors.
 
-This script is designed for buttonless Huion pen tablets, such as the Kamvas 22 Plus, and introduces the functionality to switch pen mapping using a hotkey.
+This script is designed for buttonless Huion pen tablets, such as the Kamvas 22 Plus, and introduces the functionality to switch pen mapping using a hotkey on your keyboard.
 The Huion driver lacks this crucial functionality. 🤦‍♂️
 
-The script works similarly to a game hack, as it injects an integer value directly into the memory of a running process, in this case, HuionTabletCore.exe.
-I used cheat engine https://www.cheatengine.org/ to find the memorypointers and offsets to set the value.
+The script functions akin to a game hack by injecting an integer value directly into the memory of a running process, specifically HuionTabletCore.exe.
+I used cheat engine https://www.cheatengine.org/ to find the memorypointers and offsets to set that value.
 
-Since this is a AutoHotKey script you can easily change it for yourself and use a different hotkey or make one hotkey for each monitor or whatever you like :) 
+Since this is an AutoHotkey script, you can easily change it yourself and use a different hotkey or make one hotkey for each monitor, or whatever you like :)
 
 ##### Installation:
 
+- download and install autohotkey v1
 - download both huionhack.ahk and classmemory.ahk and put them in the same folder, then run huionhack.ahk
-- or download the precompiled exe from the release section and use that instead 
-- If you want to autostart eleveated apps at windows startup i highly recommend to use the tool "skip UAC Prompt" https://www.sordum.org/16219/skip-uac-prompt-v1-2/
+- OR
+- download the precompiled exe from the release section and use that instead (it precompiled with capslock as hotkey)
+
+- I recommend running the script with administrator privileges.
+- If you want to autostart eleveated apps at windows startup without prompting, i highly recommend to use the tool "skip UAC Prompt" https://www.sordum.org/16219/skip-uac-prompt-v1-2/
 
 
 ##### Update History: 
