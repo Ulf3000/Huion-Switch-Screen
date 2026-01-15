@@ -1,7 +1,7 @@
 ## Huion-Switch-Screen
 AutoHotkey script for toggling pen mapping between multiple monitors.
 
-This script implements the pen mapping function, activated by a keyboard hotkey.
+The script implements this pen mapping function from the driver window BUT INSTEAD  activated by a keyboard hotkey 🤩👍
 <img width="941" height="648" alt="grafik" src="https://github.com/user-attachments/assets/e30f89d9-7684-45d5-a937-b6934e177331" />
 
 
@@ -10,7 +10,7 @@ This script adds hotkey functionality for switching pen mappings on buttonless H
 The script functions like a game hack by injecting an integer value directly into the memory of a running process, specifically HuionTabletCore.exe.
 I used cheat engine https://www.cheatengine.org/ to find the memorypointers and offsets to set that value.
 
-Since this is an AutoHotkey script, you can easily change it yourself and use a different hotkey or make one hotkey for each monitor, or whatever you like :)
+Since this is an AutoHotkey script, you can easily change it yourself and use a different hotkey or make one hotkey for each monitor, or whatever you like 😘
 
 ##### Installation:
 
