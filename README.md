@@ -1,10 +1,13 @@
 ## Huion-Switch-Screen
-AHK script for toggling pen mapping between multiple monitors.
+AutoHotkey script for toggling pen mapping between multiple monitors.
 
-This script is designed for buttonless Huion pen tablets, such as the Kamvas 22 Plus, and introduces the functionality to switch pen mapping using a hotkey on your keyboard.
-The Huion driver lacks this crucial functionality. 🤦‍♂️
+This script implements the pen mapping function, activated by a keyboard hotkey.
+<img width="941" height="648" alt="grafik" src="https://github.com/user-attachments/assets/e30f89d9-7684-45d5-a937-b6934e177331" />
 
-The script functions akin to a game hack by injecting an integer value directly into the memory of a running process, specifically HuionTabletCore.exe.
+
+This script adds hotkey functionality for switching pen mappings on buttonless Huion pen tablets, like the Kamvas 22 Plus. This feature is currently missing from the official Huion driver. 🤦‍♂️
+
+The script functions like a game hack by injecting an integer value directly into the memory of a running process, specifically HuionTabletCore.exe.
 I used cheat engine https://www.cheatengine.org/ to find the memorypointers and offsets to set that value.
 
 Since this is an AutoHotkey script, you can easily change it yourself and use a different hotkey or make one hotkey for each monitor, or whatever you like :)
@@ -37,3 +40,7 @@ EDIT (28.07.2022):
 EDIT (02.03.2025)
 
 -  driver version 5.7.6.1314 , new memory pointer is : 0x0003FD58 + mem.BaseAddress, "UInt", 0x198, 0x18
+
+EDIT (15.01.2026)
+
+-  driver version 15.7.6.1858 works with the same offsets from 5.7.6.1314 , no update needed :)
